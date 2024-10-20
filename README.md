@@ -16,10 +16,10 @@ The purpose of this repo is to aid in the processes of revamping your public ima
 
 ## Directory Structure:
 
->-WipeMyXAccount/
->	-.env
->	-src/
->		-TweetDelete.py
+>-- WipeMyXAccount/
+>	-- .env
+>	-- src/
+>		-- TweetDelete.py
 
 
 ## Step 1: Install the necessary libraries using pip:
