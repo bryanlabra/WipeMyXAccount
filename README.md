@@ -17,7 +17,6 @@ The purpose of this repo is to aid in the processes of revamping your public ima
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## Directory Structure:
-
 >- WipeMyXAccount/
 >	- .env
 >	- src/
@@ -25,11 +24,15 @@ The purpose of this repo is to aid in the processes of revamping your public ima
 
 ## Step 0: Virtual Environment setup
 Ensure that the virtual environment uses the correct Python version (in this case, the Homebrew-installed Python)
+### 0. Install Python 3.13 or later: Ensure you have python installed via Homebrew
+```bash
+brew install python
+```
 
 ### 1. Check the Path for Python:
 Run the following command to check which version of Python is being used by python3:
 ```bash
-which python
+which python3
 ```
 
 If this returns a path like /usr/local/bin/python3 or /opt/homebrew/bin/python3 (for Apple Silicon), it means you’re using the Homebrew version of Python, which is what you want.
