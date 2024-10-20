@@ -14,12 +14,26 @@ The purpose of this repo is to aid in the processes of revamping your public ima
 
 - *Notes*: I will be using VS code with python 3.9.6. It is recommended that you set up a virtual environment as good practice.
 
+## Directory Structure:
+    ```ini
+	- WipeMyXAccount/
+		- .env
+		- src/
+			- TweetDelete.py
+    ```
+
 ## Step 1: Install the necessary libraries using pip:
    ```bash
    pip install tweepy python-dotenv
    ```
 
 ## Step 2: Create a .env file to store your credentials:
+    ```ini
+	TWITTER_API_KEY=your_api_key
+	TWITTER_API_SECRET_KEY=your_api_secret_key
+	TWITTER_ACCESS_TOKEN=your_access_token
+	TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
+    ```
 
 ### 1.2 fgd
 
