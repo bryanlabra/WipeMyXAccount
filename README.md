@@ -19,7 +19,7 @@ The purpose of this repo is to aid in the processes of revamping your public ima
    pip install tweepy python-dotenv
    ```
 
-### 1.1 sdfa
+## Step 2: Create a .env file to store your credentials:
 
 ### 1.2 fgd
 
