@@ -12,7 +12,9 @@ The purpose of this repo is to aid in the processes of revamping your public ima
   	- Access Token
 	- Access Token Secret
 
-- *Notes*: I will be using VS code with python 3.9.6. It is recommended that you set up a virtual environment as good practice.
+- **Homebrew** (for macOS): Install Homebrew if you haven't already:
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 ## Directory Structure:
 
