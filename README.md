@@ -69,7 +69,9 @@ TWITTER_ACCESS_TOKEN=your_access_token
 TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
 ```
 
-### 1.2 fgd
+## Step 3: Run the scrip
+```bash
+python src/tweetdelete.py
+```
 
-### 1.3 dfa
 
