@@ -21,7 +21,7 @@ The purpose of this repo is to aid in the processes of revamping your public ima
 >	- src/
 >		- TweetDelete.py
 
-## Step 0: Virtual Environment settup
+## Step 0: Virtual Environment setup
 Ensure that the virtual environment uses the correct Python version (in this case, the Homebrew-installed Python)
 
 ### 1. Check the Path for Python:
