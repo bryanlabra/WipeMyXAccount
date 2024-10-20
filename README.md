@@ -24,9 +24,9 @@ The purpose of this repo is to aid in the processes of revamping your public ima
 
 ## Step 0: Virtual Environment setup
 Ensure that the virtual environment uses the correct Python version (in this case, the Homebrew-installed Python)
-### 0. Install Python 3.13 or later: Ensure you have python installed via Homebrew
+### 0. Install Python 3.12: Ensure you have python installed via Homebrew
 ```bash
-brew install python
+brew install python@3.12
 ```
 
 ### 1. Check the Path for Python:
@@ -40,15 +40,19 @@ If this returns a path like /usr/local/bin/python3 or /opt/homebrew/bin/python3 
 ### 2. Create the Virtual Environment
 After confirming that python3 is pointing to the Homebrew version of Python, you can safely create the virtual environment:
 ```bash
-python3 -m venv .venv
+python3.12 -m venv .venv
 ```
 
 This command will use the version of Python that is linked to python3 (which, in this case, is the Homebrew-installed version), and it will copy that into the virtual environment.
 
 ### 3.Verify Python Version in the Virtual Environment:
-After activating the virtual environment, you can check which Python version is being used inside it:
+Activate the virtual environment
 ```bash
 source .venv/bin/activate
+```
+
+After activating the virtual environment, you can check again which Python version is being used inside it:
+```bash
 which python3
 ```
 
@@ -56,7 +60,6 @@ which python3
 ```bash
 pip install tweepy python-dotenv
 ```
-
 
 ## Step 2: Create a .env file to store your credentials:
 ```

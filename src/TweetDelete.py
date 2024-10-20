@@ -63,20 +63,16 @@ def on_execute():
 root = Tk()
 root.title("Twitter Tweet Deleter")
 
-# Set fixed window size and prevent resizing
-root.geometry('400x200')  # You can adjust the size as needed
-root.resizable(False, False)
-
 # Define StringVars to store user inputs
 start_date_var = StringVar()
 end_date_var = StringVar()
 
 # Create and place GUI elements
-Label(root, text="Start Date (YYYY-MM-DD):").grid(row=0, column=0, padx=10, pady=10, sticky='e')
-Entry(root, textvariable=start_date_var, width=20).grid(row=0, column=1, padx=10, pady=10)
+Label(root, text="Start Date (YYYY-MM-DD):").grid(row=0, column=0, padx=10, pady=10)
+Entry(root, textvariable=start_date_var).grid(row=0, column=1, padx=10, pady=10)
 
-Label(root, text="End Date (YYYY-MM-DD):").grid(row=1, column=0, padx=10, pady=10, sticky='e')
-Entry(root, textvariable=end_date_var, width=20).grid(row=1, column=1, padx=10, pady=10)
+Label(root, text="End Date (YYYY-MM-DD):").grid(row=1, column=0, padx=10, pady=10)
+Entry(root, textvariable=end_date_var).grid(row=1, column=1, padx=10, pady=10)
 
 # Button to delete tweets within the specified timeframe
 Button(root, text="Delete Tweets", command=on_execute).grid(row=2, column=0, columnspan=2, padx=10, pady=10)
