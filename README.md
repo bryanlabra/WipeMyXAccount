@@ -15,11 +15,11 @@ The purpose of this repo is to aid in the processes of revamping your public ima
 - *Notes*: I will be using VS code with python 3.9.6. It is recommended that you set up a virtual environment as good practice.
 
 ## Directory Structure:
->
-- WipeMyXAccount/
-	- .env
-	- src/
-		- TweetDelete.py
+
+>- WipeMyXAccount/
+>	- .env
+>	- src/
+>		- TweetDelete.py
 
 
 ## Step 1: Install the necessary libraries using pip:
